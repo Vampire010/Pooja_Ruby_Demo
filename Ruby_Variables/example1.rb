@@ -1,21 +1,17 @@
 class Example1
 
-  Emp_ID ="100032"
-
   def emp_det
-
-    puts fname = "Jon"
-    puts lname = "king"
-
+    _fname = "Jon"
+    _lname = "king"
+    puts _fname , _lname
   end
 
   def emp_sal
-
-    salary = 50000
-    puts salary
+    _salary = 50000
+    puts _salary
   end
 
-  puts emp_det
-  #print emp_sal
-
+  rubyclass2obj = Example1.new
+  rubyclass2obj.emp_det
+  rubyclass2obj.emp_sal
 end
