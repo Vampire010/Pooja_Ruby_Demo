@@ -18,8 +18,13 @@ class Cal_Ex1
       puts " Can't Divide by Zero"
     end
   end
+
+  def cust_expstion
+    raise "Im A User Defined Exception"
+  end
 end
 ex= Cal_Ex1.new
 ex.add(2,0)
 ex.mul(6,10)
 ex.div(10,0)
+ex.cust_expstion
